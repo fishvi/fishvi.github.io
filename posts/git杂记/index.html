@@ -3,27 +3,55 @@ git config --global user.name [name] git config --global user.email [email] 查�
 git config --global --list 克隆仓库 git clone [repository-url] 远程仓库 添加远程仓库
 git remote add [name] [repository-url] 查看远程仓库信息
 git remote -v 提交改动文件至暂存区 改动文件包括：增加、修改、删除的文件
-git add --all "><meta name=author content><link rel="preload stylesheet" as=style href=https://fishvi.github.io/app.min.css><link rel="preload stylesheet" as=style href=https://fishvi.github.io/an-old-hope.min.css><script defer src=https://fishvi.github.io/highlight.min.js onload=hljs.initHighlightingOnLoad()></script>
+git add --all 撤销 撤销并删除当前的所有更改，包括已经add的
+git reset --hard git clean -df 撤销已经push到远程仓库的提交, commit是所要撤销的commit的上一个commit
+git log git reset --soft [commit] git push origin main --force 修改commit信息 修改最近一次commit信息
+git commit --amend git commit --amend --author=&#34;[name] <[email]>&#34; git push origin main --force 修改某几次commit信息, commit是所要更改的commit的上一个commit, 会进入到编辑窗口, 将所要更改的commit前的pick更改为edit，保存并退出，然后按照提示依次进行每一个commit的更改操作"><meta name=author content><link rel="preload stylesheet" as=style href=https://fishvi.github.io/app.min.css><link rel="preload stylesheet" as=style href=https://fishvi.github.io/an-old-hope.min.css><script defer src=https://fishvi.github.io/highlight.min.js onload=hljs.initHighlightingOnLoad()></script>
 <link rel=preload as=image href=https://fishvi.github.io/theme.png><link rel=preload as=image href=https://fishvi.github.io/github.svg><link rel=icon href=https://fishvi.github.io/favicon.ico><link rel=apple-touch-icon href=https://fishvi.github.io/apple-touch-icon.png><meta name=generator content="Hugo 0.101.0"><meta property="og:title" content="Git杂记"><meta property="og:description" content="Git配置 初始配置
 git config --global user.name [name] git config --global user.email [email] 查看配置
 git config --global --list 克隆仓库 git clone [repository-url] 远程仓库 添加远程仓库
 git remote add [name] [repository-url] 查看远程仓库信息
 git remote -v 提交改动文件至暂存区 改动文件包括：增加、修改、删除的文件
-git add --all "><meta property="og:type" content="article"><meta property="og:url" content="https://fishvi.github.io/posts/git%E6%9D%82%E8%AE%B0/"><meta property="article:section" content="posts"><meta property="article:published_time" content="2022-07-27T19:03:16-07:00"><meta property="article:modified_time" content="2022-07-27T19:03:16-07:00"><meta itemprop=name content="Git杂记"><meta itemprop=description content="Git配置 初始配置
+git add --all 撤销 撤销并删除当前的所有更改，包括已经add的
+git reset --hard git clean -df 撤销已经push到远程仓库的提交, commit是所要撤销的commit的上一个commit
+git log git reset --soft [commit] git push origin main --force 修改commit信息 修改最近一次commit信息
+git commit --amend git commit --amend --author=&#34;[name] <[email]>&#34; git push origin main --force 修改某几次commit信息, commit是所要更改的commit的上一个commit, 会进入到编辑窗口, 将所要更改的commit前的pick更改为edit，保存并退出，然后按照提示依次进行每一个commit的更改操作"><meta property="og:type" content="article"><meta property="og:url" content="https://fishvi.github.io/posts/git%E6%9D%82%E8%AE%B0/"><meta property="article:section" content="posts"><meta property="article:published_time" content="2022-07-27T19:03:16-07:00"><meta property="article:modified_time" content="2022-07-27T19:03:16-07:00"><meta itemprop=name content="Git杂记"><meta itemprop=description content="Git配置 初始配置
 git config --global user.name [name] git config --global user.email [email] 查看配置
 git config --global --list 克隆仓库 git clone [repository-url] 远程仓库 添加远程仓库
 git remote add [name] [repository-url] 查看远程仓库信息
 git remote -v 提交改动文件至暂存区 改动文件包括：增加、修改、删除的文件
-git add --all "><meta itemprop=datePublished content="2022-07-27T19:03:16-07:00"><meta itemprop=dateModified content="2022-07-27T19:03:16-07:00"><meta itemprop=wordCount content="37"><meta itemprop=keywords content><meta name=twitter:card content="summary"><meta name=twitter:title content="Git杂记"><meta name=twitter:description content="Git配置 初始配置
+git add --all 撤销 撤销并删除当前的所有更改，包括已经add的
+git reset --hard git clean -df 撤销已经push到远程仓库的提交, commit是所要撤销的commit的上一个commit
+git log git reset --soft [commit] git push origin main --force 修改commit信息 修改最近一次commit信息
+git commit --amend git commit --amend --author=&#34;[name] <[email]>&#34; git push origin main --force 修改某几次commit信息, commit是所要更改的commit的上一个commit, 会进入到编辑窗口, 将所要更改的commit前的pick更改为edit，保存并退出，然后按照提示依次进行每一个commit的更改操作"><meta itemprop=datePublished content="2022-07-27T19:03:16-07:00"><meta itemprop=dateModified content="2022-07-27T19:03:16-07:00"><meta itemprop=wordCount content="106"><meta itemprop=keywords content><meta name=twitter:card content="summary"><meta name=twitter:title content="Git杂记"><meta name=twitter:description content="Git配置 初始配置
 git config --global user.name [name] git config --global user.email [email] 查看配置
 git config --global --list 克隆仓库 git clone [repository-url] 远程仓库 添加远程仓库
 git remote add [name] [repository-url] 查看远程仓库信息
 git remote -v 提交改动文件至暂存区 改动文件包括：增加、修改、删除的文件
-git add --all "></head><body class=not-ready data-menu=false><header class=header><p class=logo><a class=site-name href=https://fishvi.github.io>Fishvi's Blog</a><a class=btn-dark></a></p><script>let bodyClx=document.body.classList,btnDark=document.querySelector(".btn-dark"),sysDark=window.matchMedia("(prefers-color-scheme: dark)"),darkVal=localStorage.getItem("dark"),setDark=e=>{bodyClx[e?"add":"remove"]("dark"),localStorage.setItem("dark",e?"yes":"no")};setDark(darkVal?darkVal==="yes":sysDark.matches),requestAnimationFrame(()=>bodyClx.remove("not-ready")),btnDark.addEventListener("click",()=>setDark(!bodyClx.contains("dark"))),sysDark.addEventListener("change",e=>setDark(e.matches))</script><nav class=social><a class=github style=--url:url(./github.svg) href=https://github.com/fishvi target=_blank></a></nav></header><main class=main><article class=post-single><header class=post-title><p><time>Jul 27, 2022</time></p><h1>Git杂记</h1></header><section class=post-content><h2 id=git配置>Git配置</h2><p>初始配置</p><pre tabindex=0><code>git config --global user.name [name]
+git add --all 撤销 撤销并删除当前的所有更改，包括已经add的
+git reset --hard git clean -df 撤销已经push到远程仓库的提交, commit是所要撤销的commit的上一个commit
+git log git reset --soft [commit] git push origin main --force 修改commit信息 修改最近一次commit信息
+git commit --amend git commit --amend --author=&#34;[name] <[email]>&#34; git push origin main --force 修改某几次commit信息, commit是所要更改的commit的上一个commit, 会进入到编辑窗口, 将所要更改的commit前的pick更改为edit，保存并退出，然后按照提示依次进行每一个commit的更改操作"></head><body class=not-ready data-menu=false><header class=header><p class=logo><a class=site-name href=https://fishvi.github.io>Fishvi's Blog</a><a class=btn-dark></a></p><script>let bodyClx=document.body.classList,btnDark=document.querySelector(".btn-dark"),sysDark=window.matchMedia("(prefers-color-scheme: dark)"),darkVal=localStorage.getItem("dark"),setDark=e=>{bodyClx[e?"add":"remove"]("dark"),localStorage.setItem("dark",e?"yes":"no")};setDark(darkVal?darkVal==="yes":sysDark.matches),requestAnimationFrame(()=>bodyClx.remove("not-ready")),btnDark.addEventListener("click",()=>setDark(!bodyClx.contains("dark"))),sysDark.addEventListener("change",e=>setDark(e.matches))</script><nav class=social><a class=github style=--url:url(./github.svg) href=https://github.com/fishvi target=_blank></a></nav></header><main class=main><article class=post-single><header class=post-title><p><time>Jul 27, 2022</time></p><h1>Git杂记</h1></header><section class=post-content><h2 id=git配置>Git配置</h2><p>初始配置</p><pre tabindex=0><code>git config --global user.name [name]
 git config --global user.email [email]
 </code></pre><p>查看配置</p><pre tabindex=0><code>git config --global --list
 </code></pre><h2 id=克隆仓库>克隆仓库</h2><pre tabindex=0><code>git clone [repository-url]
 </code></pre><h2 id=远程仓库>远程仓库</h2><p>添加远程仓库</p><pre tabindex=0><code>git remote add [name] [repository-url]
 </code></pre><p>查看远程仓库信息</p><pre tabindex=0><code>git remote -v
 </code></pre><h2 id=提交改动文件至暂存区>提交改动文件至暂存区</h2><p>改动文件包括：增加、修改、删除的文件</p><pre tabindex=0><code>git add --all
+</code></pre><h2 id=撤销>撤销</h2><p>撤销并删除当前的所有更改，包括已经add的</p><pre tabindex=0><code>git reset --hard
+git clean -df
+</code></pre><p>撤销已经push到远程仓库的提交, commit是所要撤销的commit的<strong>上一个commit</strong></p><pre tabindex=0><code>git log
+git reset --soft [commit]
+git push origin main --force
+</code></pre><h2 id=修改commit信息>修改commit信息</h2><p>修改最近一次commit信息</p><pre tabindex=0><code>git commit --amend
+git commit --amend --author=&#34;[name] &lt;[email]&gt;&#34;
+git push origin main --force
+</code></pre><p>修改某几次commit信息, commit是所要更改的commit的<strong>上一个commit</strong>, 会进入到编辑窗口, 将所要更改的commit前的pick更改为edit，保存并退出，然后按照提示依次进行每一个commit的更改操作</p><pre tabindex=0><code>git rebase -i [commit]
+...
+git commit --amend
+git commit --amend --author=&#34;[name] &lt;[email]&gt;&#34;
+git rebase --continue
+...
+git push origin main --force
+</code></pre><p>修改第一次commit信息, 无法通过前述方法进行重设，<strong>只能清空所有commit</strong>, 再重新提交第一次commit</p><pre tabindex=0><code>git update-ref -d HEAD
 </code></pre></section><nav class=post-nav><a class=next href=https://fishvi.github.io/posts/my-first-post/><span>My First Post</span><span>→</span></a></nav></article></main><footer class=footer><p>&copy; 2022 <a href=https://fishvi.github.io>Fishvi's Blog</a></p><p>Powered by <a href=https://gohugo.io/ rel=noopener target=_blank>Hugo️️</a>️</p><p><a href=https://github.com/nanxiaobei/hugo-paper rel=noopener target=_blank>Paper 5.1</a></p></footer></body></html>
